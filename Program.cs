@@ -19,7 +19,7 @@ foreach (string name in studentNames)
         studentScores = sophiaScores;
     else if (currentStudent == "Andrew")
         studentScores = andrewScores;
-    else if (currentStudent == "Emaa")
+    else if (currentStudent == "Emma")
         studentScores = emmaScores;
     else if (currentStudent == "Logan")
         studentScores = loganScores;
@@ -61,7 +61,7 @@ foreach (string name in studentNames)
     else
         currectStudentLetterGrade = "F";
 
-    Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t?");
+    Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t{currectStudentLetterGrade}");
 }
 
 Console.WriteLine("Press the Enter key to continue");
